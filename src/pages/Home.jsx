@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react'
 import {Form} from '../components/Form'
-import {Note} from '../components/Note'
+import {Notes} from '../components/Notes'
 
 export const Home = () =>{
 	return(
 		<Fragment>
 			<Form/>
 			<hr/>
-			<Note/>
+			<Notes/>
 		</Fragment>
 	)
 }

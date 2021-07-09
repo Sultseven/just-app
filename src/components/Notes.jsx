@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Note = () =>{
+export const Notes = () =>{
 	return(
 		<div>
 			<ul>
