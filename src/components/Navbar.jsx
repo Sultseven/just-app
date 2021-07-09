@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React from 'react'
 import {NavLink} from 'react-router-dom'
 
 export const Navbar = () =>{
@@ -14,6 +14,9 @@ export const Navbar = () =>{
 			        </li>
 			        <li className="nav-item">
 			        	<NavLink className="nav-link" to="/about">About</NavLink>
+			        </li>
+			        <li className="nav-item">
+			        	<NavLink className="nav-link" to="/random">Random</NavLink>
 			        </li>
 		      	</ul>
 			</div>
