@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-export const Form = () =>{
+export const Form = (props) =>{
 	return(
 		<form>
 			<div className="form-group">
 				<input 
 					type="text" 
 					className="form-control"
-					placeholder="Введите название заметки"
+					placeholder={props.name}
 				/>
 			</div>
 		</form>

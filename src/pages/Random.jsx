@@ -1,5 +1,7 @@
 import React, {Fragment} from 'react'
 import {Button} from '../components/Button'
+import {Form} from './../components/Form.jsx'
+import {ListUsers} from './../components/ListUsers.jsx'
 
 export const Random = (props) =>{
 
@@ -11,10 +13,11 @@ export const Random = (props) =>{
 		<Fragment>
 			<h1>Just do it</h1>
 			<hr/>
-			<Button onClick={ClickName} text={123}/>
-			<div>
-				<a onClick={ClickName} href="#">Click me</a>
-			</div>
+			<Form name="Поиск"/>
+			<hr/>
+			<Button text="Создать"/>
+			<hr/>
+			<ListUsers />
 		</Fragment>
 	)
 }
