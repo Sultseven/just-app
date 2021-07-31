@@ -18,7 +18,7 @@ export const About = () =>{
 
 	const user = {
 		firstName: 'love',
-		lastName: 'alon',
+		lastName: 'alone',
 	};
 
 	const element = (
@@ -28,6 +28,7 @@ export const About = () =>{
 
 	    </div>
 	);
+	
 	return(
 		<div class="jumbotron">
 		  <div class="container">
